@@ -1,0 +1,8 @@
+body { scroll-behavior: smooth; }
+.hero {
+  background: url('../assets/hero-bg.svg') center/cover no-repeat;
+  color: #fff;
+  min-height: 60vh;
+  display: flex; align-items: center;
+}
+.navbar .btn { margin-left: auto; }
