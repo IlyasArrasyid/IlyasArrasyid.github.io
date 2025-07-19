@@ -1,8 +1,15 @@
 body { scroll-behavior: smooth; }
 .hero {
-  background: url('../assets/hero-bg.svg') center/cover no-repeat;
-  color: #fff;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('assets/hero-bg.jpg') center/cover no-repeat;
   min-height: 60vh;
-  display: flex; align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
-.navbar .btn { margin-left: auto; }
+.navbar .btn {
+  margin-left: auto;
+  position: relative;
+  z-index: 2;
+}
